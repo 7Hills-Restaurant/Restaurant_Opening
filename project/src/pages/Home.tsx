@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+// import { ArrowRight, Star, Clock, MapPin } from 'lucide-react';
 
 const Home: React.FC = () => {
   const featuredDishes = [
@@ -40,27 +41,66 @@ const Home: React.FC = () => {
   return (
     <div className="pt-16">
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center">
-        <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: "url('https://images.pexels.com/photos/1893556/pexels-photo-1893556.jpeg')" }}
-        >
-          <div className="absolute inset-0 bg-black/60"></div>
+     <section className="relative bg-red-900 min-h-screen flex items-center">
+        {/* Background Pattern */}
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute inset-0 bg-black bg-opacity-20"></div>
+          <div className="absolute top-10 left-10 w-20 h-20 border-2 border-white rounded-full opacity-30"></div>
+          <div className="absolute bottom-20 right-20 w-32 h-32 border-2 border-white rounded-full opacity-20"></div>
+          <div className="absolute top-1/2 left-1/4 w-16 h-16 border-2 border-yellow-300 rounded-full opacity-25"></div>
         </div>
-        <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 animate-fade-in">
-            Authentic Taste of India
-            <span className="block text-3xl md:text-5xl text-yellow-400 mt-4">at 7 Hills</span>
-          </h1>
-          <p className="text-xl md:text-2xl text-gray-200 mb-8 animate-fade-in-delay">
-            Experience the rich flavors and aromatic spices of traditional Indian cuisine in the heart of the city
-          </p>
-          <Link
-            to="/starters"
-            className="inline-flex items-center px-8 py-4 bg-yellow-500 hover:bg-yellow-400 text-black font-semibold text-lg rounded-full transition-all duration-300 transform hover:scale-105 animate-bounce-in"
-          >
-            Explore Our Menu
-          </Link>
+
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="text-white">
+              <h1 className="text-5xl lg:text-6xl font-bold mb-6 animate-fade-in">
+                Welcome to
+                <span className="block text-yellow-300">7 Hills</span>
+                <span className="text-3xl lg:text-4xl">Indian Restaurant</span>
+              </h1>
+              <p className="text-xl mb-8 text-orange-100 leading-relaxed">
+                Experience the authentic flavors of India in the heart of Leuven. 
+                From aromatic spices to traditional recipes, we bring you a culinary 
+                journey that celebrates the rich heritage of Indian cuisine.
+              </p>
+              {/* <div className="flex flex-col sm:flex-row gap-4">
+                <Link
+                  to="/menu"
+                  className="bg-white text-orange-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-orange-50 transform hover:scale-105 transition-all duration-300 flex items-center justify-center group"
+                >
+                  Explore Menu
+                  <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-200" />
+                </Link>
+                <a
+                  href="tel:+32470652489"
+                  className="border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-orange-600 transform hover:scale-105 transition-all duration-300 flex items-center justify-center"
+                >
+                  Call Now
+                </a>
+              </div> */}
+            </div>
+            
+            {/* Hero Image */}
+            <div className="relative">
+              <div className="bg-white rounded-3xl p-8 shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-500">
+                <img
+                  src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  alt="Indian cuisine"
+                  className="w-full h-80 object-cover rounded-2xl"
+                />
+                <div className="absolute -top-4 -right-4 bg-yellow-400 text-orange-800 px-4 py-2 rounded-full font-bold shadow-lg">
+                  Authentic Indian
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Scroll indicator */}
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+          <div className="w-6 h-10 border-2 border-white rounded-full flex justify-center">
+            <div className="w-1 h-3 bg-white rounded-full mt-2 animate-pulse"></div>
+          </div>
         </div>
       </section>
 

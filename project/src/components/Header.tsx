@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu as MenuIcon, X, ChevronDown } from 'lucide-react';
+import logo from '../assets/logo.png'; // Adjust the path as necessary
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -36,10 +37,10 @@ const Header: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-to-br from-red-900 to-red-700 rounded-full flex items-center justify-center text-yellow-400 font-bold text-lg">
-              7H
+            <div className="w-18 h-12  rounded-full flex items-center justify-center text-yellow-400 font-bold text-lg object-fill">
+              <img src={logo} alt="Logo" className="w-full h-full rounded-full" />
             </div>
-            <span className="text-xl font-bold text-red-900">7 Hills Indian Restaurant</span>
+            <span className="text-2xl font-merriweather text-red-900">7 Hills Indian Restaurant</span>
           </Link>
           
           {/* Desktop Navigation */}
