@@ -55,7 +55,17 @@ const menuCategories = [
     id: "alcohol",
     name: "Alcohol Drinks",
     subcategories: ["Cocktails", "Beer Indian", "Beer European", "O.Z Beer", "Draught", "Wine", "Digestive", "Sparkling"]
-  }
+  },
+ {
+  id: "hot-drinks",
+  name: "Hot Drinks",
+  subcategories: ["Indian Tea", "Dip-Tea", "Coffee", "Herbal Tea"]
+},
+{
+  id: "dessert",
+  name: "Dessert",
+  subcategories: ["Indian Sweets", "Kulfi", "Halwa", "Ice Cream"]
+},
 ];
 
 
@@ -171,7 +181,7 @@ const menuItems=[
   { id: "87", name: "Butter Naan", price: 5.00, category: "naan-rice", subcategory: "Naan & Breads", isVeg: true, imgUrl:"/menu/ButterNaan.jpg" },
   { id: "88", name: "Garlic Naan", price: 5.50, category: "naan-rice", subcategory: "Naan & Breads", isVeg: true, imgUrl:"/menu/GarlicNaan.jpg" },
   { id: "89", name: "Roti Tandoori", price: 4.50, category: "naan-rice", subcategory: "Naan & Breads", isVeg: true, imgUrl:"/menu/RotiTandoori.jpg" },
-  { id: "90", name: "Cheese Naan", price: 6.00, category: "naan-rice", subcategory: "Naan & Breads", isVeg: true, imgUrl:"/menu/Cheese Naan.jpg" },
+  { id: "90", name: "Cheese Naan", price: 6.00, category: "naan-rice", subcategory: "Naan & Breads", isVeg: true, imgUrl:"/menu/CheeseNaan.jpg" },
   { id: "91", name: "Lachha Paratha", price: 5.00, category: "naan-rice", subcategory: "Naan & Breads", isVeg: true, imgUrl:"/menu/LachhaParatha.jpg" },
   { id: "92", name: "Plain Paratha", price: 5.00, category: "naan-rice", subcategory: "Naan & Breads", isVeg: true, imgUrl:"/menu/PlainParatha.jpg" },
 
@@ -271,6 +281,49 @@ const menuItems=[
   { id: "157", name: "Cava", price: 7.00, category: "alcohol", subcategory: "Sparkling", isVeg: true, imgUrl:"/menu/Cava.jpg" },
   { id: "158", name: "Champaign", price: 7.00, category: "alcohol", subcategory: "Sparkling", isVeg: true, imgUrl:"/menu/Champaign.jpg" },
   { id: "159", name: "Chardonnay", price: 7.00, category: "alcohol", subcategory: "Sparkling", isVeg: true, imgUrl:"/menu/Chardonnay.jpg" },
+
+
+
+// Indian Tea
+{ id: "160", name: "Plain Tea", price: 4.00, category: "hot-drinks", subcategory: "Indian Tea", isVeg: true, imgUrl: "/menu/plain-tea.jpg" },
+{ id: "161", name: "Ginger Tea", price: 4.50, category: "hot-drinks", subcategory: "Indian Tea", isVeg: true, imgUrl: "/menu/ginger-tea.jpg" },
+{ id: "162", name: "Ellachi Tea", price: 4.50, category: "hot-drinks", subcategory: "Indian Tea", isVeg: true, imgUrl: "/menu/ellachi-tea.jpg" },
+{ id: "163", name: "Masala Tea", price: 4.50, category: "hot-drinks", subcategory: "Indian Tea", isVeg: true, imgUrl: "/menu/masala-tea.jpg" },
+{ id: "164", name: "Dip-Tea", price: 4.00, category: "hot-drinks", subcategory: "Dip-Tea", isVeg: true, imgUrl: "/menu/dip-tea.jpg" },
+
+// Coffee
+{ id: "165", name: "Coffee", price: 4.00, category: "hot-drinks", subcategory: "Coffee", isVeg: true, imgUrl: "/menu/coffee.jpg" },
+{ id: "166", name: "Espresso", price: 4.00, category: "hot-drinks", subcategory: "Coffee", isVeg: true, imgUrl: "/menu/espresso.jpg" },
+{ id: "167", name: "Double Espresso", price: 4.00, category: "hot-drinks", subcategory: "Coffee", isVeg: true, imgUrl: "/menu/double-espresso.jpg" },
+{ id: "168", name: "Cappuccino", price: 4.00, category: "hot-drinks", subcategory: "Coffee", isVeg: true, imgUrl: "/menu/cappuccino.jpg" },
+
+// Herbal Tea
+{ id: "169", name: "Green Tea", price: 4.00, category: "hot-drinks", subcategory: "Herbal Tea", isVeg: true, imgUrl: "/menu/green-tea.jpg" },
+{ id: "170", name: "Black Tea", price: 4.00, category: "hot-drinks", subcategory: "Herbal Tea", isVeg: true, imgUrl: "/menu/black-tea.jpg" },
+{ id: "171", name: "Mint Tea", price: 4.00, category: "hot-drinks", subcategory: "Herbal Tea", isVeg: true, imgUrl: "/menu/mint-tea.jpg" },
+{ id: "172", name: "Jasmine Tea", price: 4.00, category: "hot-drinks", subcategory: "Herbal Tea", isVeg: true, imgUrl: "/menu/jasmine-tea.jpg" },
+{ id: "173", name: "Chamomile Tea", price: 4.00, category: "hot-drinks", subcategory: "Herbal Tea", isVeg: true, imgUrl: "/menu/chamomile-tea.jpg" },
+
+
+
+// Indian Sweets
+{ id: "174", name: "Gulab Jamun", price: 6.50, category: "dessert", subcategory: "Indian Sweets", isVeg: true, imgUrl: "/menu/gulab-jamun.jpg" },
+{ id: "175", name: "Gulab Jamun + Ice Cream", price: 7.50, category: "dessert", subcategory: "Indian Sweets", isVeg: true, imgUrl: "/menu/gulab-jamun-icecream.jpg" },
+
+// Kulfi
+{ id: "176", name: "Pistachio Kulfi", price: 7.50, category: "dessert", subcategory: "Kulfi", isVeg: true, imgUrl: "/menu/pistachio-kulfi.jpg" },
+{ id: "177", name: "Mango Kulfi", price: 7.50, category: "dessert", subcategory: "Kulfi", isVeg: true, imgUrl: "/menu/mango-kulfi.jpg" },
+{ id: "178", name: "Malai Kulfi", price: 7.50, category: "dessert", subcategory: "Kulfi", isVeg: true, imgUrl: "/menu/malai-kulfi.jpg" },
+
+// Halwa
+{ id: "179", name: "Gajar Ka Halwa", price: 7.50, category: "dessert", subcategory: "Halwa", isVeg: true, imgUrl: "/menu/gajar-halwa.jpg" },
+
+// Ice Cream
+{ id: "180", name: "Vanilla", price: 7.00, category: "dessert", subcategory: "Ice Cream", isVeg: true, imgUrl: "/menu/vanilla-icecream.jpg" },
+{ id: "181", name: "Dame Blanche", price: 9.50, category: "dessert", subcategory: "Ice Cream", isVeg: true, imgUrl: "/menu/dame-blanche.jpg" },
+{ id: "182", name: "Chocolate", price: 7.00, category: "dessert", subcategory: "Ice Cream", isVeg: true, imgUrl: "/menu/chocolate-icecream.jpg" }
+
+  
 ];
 
 const Menu = () => {
@@ -492,9 +545,7 @@ const Menu = () => {
                     <span className="text-sm text-gray-500 mb-3 block">{item.subcategory}</span>
                   )}
                   
-                  <button className="w-full bg-red-900 hover:bg-red-800 text-white py-2 px-4 rounded-lg transition-colors duration-200 font-medium">
-                    Add to Order
-                  </button>
+                
                 </div>
               </div>
             ))}

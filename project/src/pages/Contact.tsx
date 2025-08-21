@@ -27,9 +27,7 @@ const Contact: React.FC = () => {
               </div>
               <h3 className="text-xl font-bold text-red-900 mb-2">Address</h3>
               <p className="text-gray-700">
-                123 Spice Street<br />
-                Curry Lane<br />
-                Food City, FC 12345
+           FONTEINSTRAAT 123, 3000 LEUVEN, BELGIUM
               </p>
             </div>
             
@@ -94,7 +92,7 @@ const Contact: React.FC = () => {
       </section>
 
       {/* Reservation Section */}
-      <section className="py-20 bg-white">
+      {/* <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-red-900 mb-4">Make a Reservation</h2>
           <div className="w-24 h-1 bg-yellow-500 mx-auto mb-8"></div>
@@ -116,7 +114,7 @@ const Contact: React.FC = () => {
             </a>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

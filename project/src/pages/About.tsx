@@ -33,21 +33,20 @@ const About: React.FC = () => {
             <div className="space-y-6">
               <h3 className="text-3xl font-bold text-red-900 mb-6">Our Story</h3>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Founded in 1995, 7 Hills Indian Restaurant has been serving authentic Indian cuisine with passion and dedication for over 25 years. Our journey began with a simple vision: to bring the rich culinary traditions of India to our local community.
+               We’re two friends brought together by a shared passion for cooking and a dedication to serving others. This restaurant is our dream come true — a place where every dish is made with care, and every guest is treated like family.
+
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Our master chefs, trained in the traditional cooking methods passed down through generations, use only the finest spices imported directly from India. Every dish is prepared with love, ensuring an authentic taste that transports you to the vibrant streets of Mumbai, Delhi, and beyond.
+                We live by the belief <span className="font-bold text-red-500">"Atithi Devo Bhava"</span> — the guest is God — so your comfort and satisfaction will always be our top priority. From the kitchen to your table, we aim to serve not just food, but warmth, happiness, and unforgettable flavors.
               </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
-                From our tandoor-fired breads to our slow-cooked curries, each meal is a celebration of India's diverse culinary heritage. We pride ourselves on using fresh, high-quality ingredients and traditional cooking techniques to create unforgettable dining experiences.
-              </p>
+        
             </div>
           </div>
         </div>
       </section>
 
       {/* Statistics Section */}
-      <section className="py-20 bg-cream">
+      {/* <section className="py-20 bg-cream">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-red-900 mb-4">Our Achievements</h2>
@@ -73,7 +72,7 @@ const About: React.FC = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Values Section */}
       <section className="py-20 bg-white">

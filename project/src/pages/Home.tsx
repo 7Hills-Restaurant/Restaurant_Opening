@@ -8,34 +8,34 @@ const Home: React.FC = () => {
       name: "Butter Chicken",
       description: "Tender chicken in rich tomato and cream sauce",
       price: "€18.99",
-      image: "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg",
+      image: "/menu/ButterChicken.jpg",
       category: "chicken"
     },
     {
       name: "Hyderabadi Biryani",
       description: "Fragrant basmati rice with tender lamb and aromatic spices",
       price: "€24.99",
-      image: "https://images.pexels.com/photos/1893557/pexels-photo-1893557.jpeg",
+      image: "/menu/ChickenBiryani.jpg",
       category: "biryani"
     },
     {
       name: "Masala Dosa",
       description: "Crispy crepe filled with spiced potato curry",
       price: "€11.99",
-      image: "https://images.pexels.com/photos/5560754/pexels-photo-5560754.jpeg",
+      image: "menu/MasalaDosa.jpg",
       category: "idli-dosa"
     }
   ];
 
   const menuCategories = [
-    { name: "Starters", path: "/starters", image: "https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg" },
-    { name: "Idli & Dosa", path: "/idli-dosa", image: "https://images.pexels.com/photos/5560754/pexels-photo-5560754.jpeg" },
-    { name: "Chicken", path: "/chicken", image: "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg" },
-    { name: "Lamb", path: "/lamb", image: "https://images.pexels.com/photos/8629141/pexels-photo-8629141.jpeg" },
-    { name: "Fish & Prawn", path: "/fish-prawn", image: "https://images.pexels.com/photos/7625056/pexels-photo-7625056.jpeg" },
-    { name: "Tandoori", path: "/tandoori", image: "https://images.pexels.com/photos/5410400/pexels-photo-5410400.jpeg" },
-    { name: "Naan & Rice", path: "/naan-rice", image: "https://images.pexels.com/photos/4449068/pexels-photo-4449068.jpeg" },
-    { name: "Biryani", path: "/biryani", image: "https://images.pexels.com/photos/1893557/pexels-photo-1893557.jpeg" }
+    { name: "Starters", path: "/menu", image: "https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg" },
+    { name: "Idli & Dosa", path: "/menu", image: "https://images.pexels.com/photos/5560754/pexels-photo-5560754.jpeg" },
+    { name: "Chicken", path: "/menu", image: "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg" },
+    { name: "Lamb", path: "/menu", image: "https://images.pexels.com/photos/8629141/pexels-photo-8629141.jpeg" },
+    { name: "Fish & Prawn", path: "/menu", image: "https://images.pexels.com/photos/7625056/pexels-photo-7625056.jpeg" },
+    { name: "Tandoori", path: "/menu", image: "https://images.pexels.com/photos/5410400/pexels-photo-5410400.jpeg" },
+    { name: "Naan & Rice", path: "/menu", image: "https://images.pexels.com/photos/4449068/pexels-photo-4449068.jpeg" },
+    { name: "Biryani", path: "/menu", image: "https://images.pexels.com/photos/1893557/pexels-photo-1893557.jpeg" }
   ];
 
   return (

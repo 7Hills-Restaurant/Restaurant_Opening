@@ -17,11 +17,11 @@ const Footer: React.FC = () => {
             <div className="space-y-4">
               <div className="flex items-center justify-center md:justify-start space-x-3">
                 <MapPin className="text-yellow-400" size={20} />
-                <span>123 Spice Street, Curry Lane, Food City, FC 12345</span>
+                <span>FONTEINSTRAAT 123, 3000LEUVEN, BELGIUM</span>
               </div>
               <div className="flex items-center justify-center md:justify-start space-x-3">
                 <Phone className="text-yellow-400" size={20} />
-                <span>(555) 123-CURRY</span>
+                <span>+32 470 65 24 89</span>
               </div>
               <div className="flex items-center justify-center md:justify-start space-x-3">
                 <Mail className="text-yellow-400" size={20} />
