@@ -95,64 +95,64 @@ const menuItems=[
   // Starters - Non Vegetarian
   { id: "10", name: "Chicken Samosa", price: 8.00, category: "starters", subcategory: "Non Vegetarian", isVeg: false, imgUrl:"/menu/Chickensamosa.jpg" },
   { id: "11", name: "Lamb Samosa", price: 8.00, category: "starters", subcategory: "Non Vegetarian", isVeg: false, imgUrl:"/menu/lambsamosa.jpg" },
-  { id: "12", name: "Chicken Pakoda", price: 8.50, category: "starters", subcategory: "Non Vegetarian", isVeg: false, imgUrl:"/menu/ChickenPakoda.jpg" },
-  { id: "13", name: "Fish Fry", price: 7.50, category: "starters", subcategory: "Non Vegetarian", isVeg: false, imgUrl:"/menu/ChickenSpringRoll.jpg" },
-  { id: "14", name: "Egg Bonda", price: 10.50, category: "starters", subcategory: "Non Vegetarian", isVeg: false, imgUrl:"/menu/EggBonda.jpg" },
-  { id: "15", name: "Non Veg Platter", price: 9.00, category: "starters", subcategory: "Non Vegetarian", isVeg: false, imgUrl:"/menu/NonVegPlatter.jpg" },
+  { id: "12", name: "Chicken Pakoda", price: 8.00, category: "starters", subcategory: "Non Vegetarian", isVeg: false, imgUrl:"/menu/ChickenPakoda.jpg" },
+  { id: "13", name: "Fish Fry", price: 9.00, category: "starters", subcategory: "Non Vegetarian", isVeg: false, imgUrl:"/menu/ChickenSpringRoll.jpg" },
+  { id: "14", name: "Egg Bonda", price: 9.00, category: "starters", subcategory: "Non Vegetarian", isVeg: false, imgUrl:"/menu/EggBonda.jpg" },
+  { id: "15", name: "Non Veg Platter", price: 15.50, category: "starters", subcategory: "Non Vegetarian", isVeg: false, imgUrl:"/menu/NonVegPlatter.jpg" },
 
   // Tandoori Specials
-  { id: "16", name: "Paneer Tikka", price: 15.50, category: "tandoori", isVeg: true, imgUrl:"/menu/PaneerTikka.jpg" },
-  { id: "17", name: "Chicken Tikka", price: 15.50, category: "tandoori", isVeg: false, imgUrl:"/menu/ChickenTikka.jpg" },
-  { id: "18", name: "Chicken Tandoori", price: 17.50, category: "tandoori", isVeg: false, imgUrl:"/menu/ChickenTandoori.jpg" },
+  { id: "16", name: "Paneer Tikka", price: 14.50, category: "tandoori", isVeg: true, imgUrl:"/menu/PaneerTikka.jpg" },
+  { id: "17", name: "Chicken Tikka", price: 14.50, category: "tandoori", isVeg: false, imgUrl:"/menu/ChickenTikka.jpg" },
+  { id: "18", name: "Chicken Tandoori", price: 15.50, category: "tandoori", isVeg: false, imgUrl:"/menu/ChickenTandoori.jpg" },
   { id: "19", name: "Lamb Seekh Kebab", price: 15.50, category: "tandoori", isVeg: false, imgUrl:"/menu/LambSeekhKebab.jpg" },
-  { id: "20", name: "Chicken Seekh Kebab", price: 16.50, category: "tandoori", isVeg: false, imgUrl:"/menu/ChickenSeekhKebab.jpg" },
+  { id: "20", name: "Chicken Seekh Kebab", price: 15.50, category: "tandoori", isVeg: false, imgUrl:"/menu/ChickenSeekhKebab.jpg" },
   
 
   // Idli & Dosa Corner - Dosa
-  { id: "21", name: "Plain Dosa", price: 9.50, category: "idli-dosa", subcategory: "Dosa", isVeg: true, imgUrl:"/menu/PlainDosa.jpg" },
-  { id: "22", name: "Masala Dosa", price: 6.00, category: "idli-dosa", subcategory: "Dosa", isVeg: true, imgUrl:"/menu/MasalaDosa.jpg" },
+  { id: "21", name: "Plain Dosa", price: 10.50, category: "idli-dosa", subcategory: "Dosa", isVeg: true, imgUrl:"/menu/PlainDosa.jpg" },
+  { id: "22", name: "Masala Dosa", price: 12.50, category: "idli-dosa", subcategory: "Dosa", isVeg: true, imgUrl:"/menu/MasalaDosa.jpg" },
   
 
   // Idli & Dosa Corner - Idli
-  { id: "23", name: "Plain Idli 3pc", price: 5.50, category: "idli-dosa", subcategory: "Idli", isVeg: true, imgUrl:"/menu/PlainIdli3pc.jpg" },
-  { id: "24", name: "Sambar Idli 3pc", price: 5.50, category: "idli-dosa", subcategory: "Idli", isVeg: true, imgUrl:"/menu/SambarIdli3pc.jpg" },
+  { id: "23", name: "Plain Idli ", price: 9.50, category: "idli-dosa", subcategory: "Idli", isVeg: true, imgUrl:"/menu/PlainIdli3pc.jpg" },
+  { id: "24", name: "Sambar Idli", price: 10.50, category: "idli-dosa", subcategory: "Idli", isVeg: true, imgUrl:"/menu/SambarIdli3pc.jpg" },
 
   // Idli & Dosa Corner - Vada
-  { id: "25", name: "Plain Vada", price: 5.50, category: "idli-dosa", subcategory: "Vada", isVeg: true, imgUrl:"/menu/PlainVada.jpg" },
-  { id: "26", name: "Sambar Vada", price: 5.50, category: "idli-dosa", subcategory: "Vada", isVeg: true, imgUrl:"/menu/SambarVada.jpg" },
+  { id: "25", name: "Plain Vada", price: 9.50, category: "idli-dosa", subcategory: "Vada", isVeg: true, imgUrl:"/menu/PlainVada.jpg" },
+  { id: "26", name: "Sambar Vada", price: 11.50, category: "idli-dosa", subcategory: "Vada", isVeg: true, imgUrl:"/menu/SambarVada.jpg" },
 
   // Idli & Dosa Corner - Puri
-  { id: "27", name: "Puri", price: 5.50, category: "idli-dosa", subcategory: "Puri", isVeg: true, imgUrl:"/menu/PlainVada.jpg" },
+  { id: "27", name: "Puri", price: 9.50, category: "idli-dosa", subcategory: "Puri", isVeg: true, imgUrl:"/menu/PlainVada.jpg" },
   
   // Vegetarian 
-  { id: "28", name: "Mix Veg", price: 15.50, category: "vegetarian", isVeg: true, imgUrl:"/menu/MixVeg.jpg" },
-  { id: "29", name: "Paneer Jalfrezi", price: 16.00, category: "vegetarian", isVeg: true, imgUrl:"/menu/PaneerJalfrezi.jpg" },
-  { id: "30", name: "Paneer Butter Masala", price: 17.00, category: "vegetarian", isVeg: true, imgUrl:"/menu/PaneerButterMasala.jpg" },
-  { id: "31", name: "Paneer Vindaloo", price: 15.50, category: "vegetarian", isVeg: true, imgUrl:"/menu/PaneerVindaloo.jpg" },
-  { id: "32", name: "Dal Thadka", price: 15.50, category: "vegetarian", isVeg: true, imgUrl:"/menu/DalThadka.jpg" },
-  { id: "33", name: "Bagara Baingan", price: 14.50, category: "vegetarian", isVeg: true, imgUrl:"/menu/BagaraBaingan.jpg" },
-  { id: "34", name: "Sambar", price: 16.50, category: "vegetarian", isVeg: true, imgUrl:"/menu/Sambar.jpg" },
-  { id: "35", name: "Dal Makhani", price: 16.50, category: "vegetarian", isVeg: true, imgUrl:"/menu/DalMakhani.jpg" },
+  { id: "28", name: "Mix Veg", price: 14.50, category: "vegetarian", isVeg: true, imgUrl:"/menu/MixVeg.jpg" },
+  { id: "29", name: "Paneer Jalfrezi", price: 15.00, category: "vegetarian", isVeg: true, imgUrl:"/menu/PaneerJalfrezi.jpg" },
+  { id: "30", name: "Paneer Butter Masala", price: 16.50, category: "vegetarian", isVeg: true, imgUrl:"/menu/PaneerButterMasala.jpg" },
+  { id: "31", name: "Paneer Vindaloo", price: 16.50, category: "vegetarian", isVeg: true, imgUrl:"/menu/PaneerVindaloo.jpg" },
+  { id: "32", name: "Dal Thadka", price: 16.50, category: "vegetarian", isVeg: true, imgUrl:"/menu/DalThadka.jpg" },
+  { id: "33", name: "Bagara Baingan", price: 16.50, category: "vegetarian", isVeg: true, imgUrl:"/menu/BagaraBaingan.jpg" },
+  { id: "34", name: "Sambar", price: 12.50, category: "vegetarian", isVeg: true, imgUrl:"/menu/Sambar.jpg" },
+  { id: "35", name: "Dal Makhani", price: 15.50, category: "vegetarian", isVeg: true, imgUrl:"/menu/DalMakhani.jpg" },
   { id: "36", name: "Rajma", price: 14.50, category: "vegetarian", isVeg: true, imgUrl:"/menu/Rajma.jpg" },
-  { id: "37", name: "Paneer Korma", price: 16.50, category: "vegetarian", isVeg: true, imgUrl:"/menu/PaneerKorma.jpg" },
-  { id: "38", name: "Palak Paneer", price: 16.50, category: "vegetarian", isVeg: true, imgUrl:"/menu/PalakPaneer.jpg" },
+  { id: "37", name: "Paneer Korma", price: 14.50, category: "vegetarian", isVeg: true, imgUrl:"/menu/PaneerKorma.jpg" },
+  { id: "38", name: "Palak Paneer", price: 15.50, category: "vegetarian", isVeg: true, imgUrl:"/menu/PalakPaneer.jpg" },
   { id: "39", name: "Paneer Do Piaza", price: 15.50, category: "vegetarian", isVeg: true, imgUrl:"/menu/PaneerDoPiaza.jpg" },
-  { id: "40", name: "Aloo Gobi", price: 15.50, category: "vegetarian", isVeg: true, imgUrl:"/menu/BainganBharta.jpg" },
+  { id: "40", name: "Aloo Gobi", price: 16.50, category: "vegetarian", isVeg: true, imgUrl:"/menu/BainganBharta.jpg" },
 
   // Chicken
-  { id: "41", name: "Chicken Jalfrezi", price: 16.50, category: "chicken", isVeg: false, imgUrl:"/menu/ChickenJalfrezi.jpg" },
+  { id: "41", name: "Chicken Jalfrezi", price: 15.50, category: "chicken", isVeg: false, imgUrl:"/menu/ChickenJalfrezi.jpg" },
   { id: "42", name: "Butter Chicken", price: 16.50, category: "chicken", isVeg: false, imgUrl:"/menu/ButterChicken.jpg" },
   { id: "43", name: "Chicken Vindaloo", price: 15.50, category: "chicken", isVeg: false, imgUrl:"/menu/ChickenVindaloo.jpg" },
-  { id: "44", name: "Chicken Korma", price: 15.50, category: "chicken", isVeg: false, imgUrl:"/menu/ChickenKorma.jpg" },
+  { id: "44", name: "Chicken Korma", price: 14.50, category: "chicken", isVeg: false, imgUrl:"/menu/ChickenKorma.jpg" },
   { id: "45", name: "Palak Chicken", price: 16.50, category: "chicken", isVeg: false, imgUrl:"/menu/PalakChicken.jpg" },
-  { id: "46", name: "Chicken kebab Masala", price: 15.00, category: "chicken", isVeg: false, imgUrl:"/menu/ChickenDoPiaza.jpg" },
+  { id: "46", name: "Chicken kebab Masala", price: 16.50, category: "chicken", isVeg: false, imgUrl:"/menu/ChickenDoPiaza.jpg" },
 
   // Lamb Main Course
-  { id: "47", name: "Lamb Jalfrezi", price: 15.50, category: "lamb", isVeg: false, imgUrl:"/menu/LambJalfrezi.jpg" },
-  { id: "48", name: "Lamb Vindaloo", price: 14.50, category: "lamb", isVeg: false, imgUrl:"/menu/LambVindaloo.jpg" },
-  { id: "49", name: "Lamb Korma", price: 15.00, category: "lamb", isVeg: false, imgUrl:"/menu/LambKorma.jpg" },
-  { id: "50", name: "Palak Lamb", price: 14.50, category: "lamb", isVeg: false, imgUrl:"/menu/PalakLamb.jpg" },
-  { id: "51", name: "Lamb Kebab Masala", price: 14.50, category: "lamb", isVeg: false, imgUrl:"/menu/LambKebabMasala.jpg" },
+  { id: "47", name: "Lamb Jalfrezi", price: 16.50, category: "lamb", isVeg: false, imgUrl:"/menu/LambJalfrezi.jpg" },
+  { id: "48", name: "Lamb Vindaloo", price: 15.50, category: "lamb", isVeg: false, imgUrl:"/menu/LambVindaloo.jpg" },
+  { id: "49", name: "Lamb Korma", price: 15.50, category: "lamb", isVeg: false, imgUrl:"/menu/LambKorma.jpg" },
+  { id: "50", name: "Palak Lamb", price: 16.50, category: "lamb", isVeg: false, imgUrl:"/menu/PalakLamb.jpg" },
+  { id: "51", name: "Lamb Kebab Masala", price: 16.50, category: "lamb", isVeg: false, imgUrl:"/menu/LambKebabMasala.jpg" },
 
 
   // Naan
@@ -163,26 +163,26 @@ const menuItems=[
   { id: "56", name: "Cheese Naan", price: 6.00, category: "naan",  isVeg: true, imgUrl:"/menu/CheeseNaan.jpg" },
 
   //Soups 
-  { id: "57", name: "Chicken Tandori Soup", price: 6.50, category: "soups", isVeg: false, imgUrl:"/menu/ChickenTandooriSoup.jpg" },
-  { id: "58", name: "Asperges Soup", price: 6.00, category: "soups", isVeg: true, imgUrl:"/menu/AspergesSoup.jpg" },
-  { id: "59", name: "Tomato Soup", price: 5.50, category: "soups", isVeg: true, imgUrl:"/menu/TomatoSoup.jpg" },
+  { id: "57", name: "Chicken Tandori Soup", price: 8.50, category: "soups", isVeg: false, imgUrl:"/menu/ChickenTandooriSoup.jpg" },
+  { id: "58", name: "Asperges Soup", price: 7.00, category: "soups", isVeg: true, imgUrl:"/menu/AspergesSoup.jpg" },
+  { id: "59", name: "Tomato Soup", price: 7.00, category: "soups", isVeg: true, imgUrl:"/menu/TomatoSoup.jpg" },
 
 
   //  Rice
-  { id: "60", name: "Bagara Rice", price: 5.00, category: "rice",  isVeg: true, imgUrl:"/menu/BagaraRice.jpg" },
-  { id: "61", name: "Plain Rice", price: 4.50, category: "rice",  isVeg: true, imgUrl:"/menu/PlainRice.jpg" },
-  { id: "62", name: "Saffron Rice", price: 5.50, category: "rice",  isVeg: true, imgUrl:"/menu/SaffronRice.jpg" },
+  { id: "60", name: "Bagara Rice", price: 4.50, category: "rice",  isVeg: true, imgUrl:"/menu/BagaraRice.jpg" },
+  { id: "61", name: "Plain Rice", price: 5.00, category: "rice",  isVeg: true, imgUrl:"/menu/PlainRice.jpg" },
+  { id: "62", name: "Saffron Rice", price: 6.00, category: "rice",  isVeg: true, imgUrl:"/menu/SaffronRice.jpg" },
 
   // Biryani
-  { id: "63", name: "Lamb Biryani", price: 19.50, category: "biryani", isVeg: false, imgUrl:"/menu/LambBiryani.jpg" },
-  { id: "64", name: "Andhra Chicken Biryani", price: 18.50, category: "biryani", isVeg: false, imgUrl:"/menu/ChickenBiryani.jpg" },
+  { id: "63", name: "Lamb Biryani", price: 20.50, category: "biryani", isVeg: false, imgUrl:"/menu/LambBiryani.jpg" },
+  { id: "64", name: "Andhra Chicken Biryani", price: 19.50, category: "biryani", isVeg: false, imgUrl:"/menu/ChickenBiryani.jpg" },
   { id: "65", name: "Vegetable Biryani", price: 18.50, category: "biryani", isVeg: true, imgUrl:"/menu/Vegetable Biryani.jpg" },
 
   // 7 Hills Thali - Vegetarian Thali
-  { id: "66", name: "Vegetarian Thali", price: 22.00, category: "7hillsthali", subcategory: "Vegetarian Thali", isVeg: true, imgUrl:"/menu/VegetarianThali.jpg" },
+  { id: "66", name: "Vegetarian Thali", price: 20.50, category: "7hillsthali", subcategory: "Vegetarian Thali", isVeg: true, imgUrl:"/menu/VegetarianThali.jpg" },
 
   // 7 Hills Thali - Non Vegetarian Thali
-  { id: "67", name: "Non Vegetarian Thali", price: 25.00, category: "7hillsthali", subcategory: "Non Vegetarian Thali", isVeg: false, imgUrl:"/menu/NonVegetarianThali.jpg" },
+  { id: "67", name: "Non Vegetarian Thali", price: 22.50, category: "7hillsthali", subcategory: "Non Vegetarian Thali", isVeg: false, imgUrl:"/menu/NonVegetarianThali.jpg" },
 
   // Soft Drinks - Cool Drinks
   { id: "68", name: "Coca Cola (Normal / Zero)", price: 4.50, category: "soft-drinks", subcategory: "Cool Drinks", isVeg: true, imgUrl:"/menu/CocaCola.jpg" },
@@ -209,7 +209,7 @@ const menuItems=[
   { id: "83", name: "Salt Lassi", price: 5.00, category: "soft-drinks", subcategory: "Lassi", isVeg: true, imgUrl:"/menu/SaltLassi.jpg" },
   { id: "84", name: "Sweet Lassi", price: 5.50, category: "soft-drinks", subcategory: "Lassi", isVeg: true, imgUrl:"/menu/SweetLassi.jpg" },
   { id: "85", name: "Natural Lassi", price: 5.00, category: "soft-drinks", subcategory: "Lassi", isVeg: true, imgUrl:"/menu/NaturalLassi.jpg" },
-  { id: "86", name: "Chocolate Lassi", price: 7.00, category: "soft-drinks", subcategory: "Lassi", isVeg: true, imgUrl:"/menu/ChocolateLassi.jpg" },
+  { id: "86", name: "Chocolate Lassi", price: 8.00, category: "soft-drinks", subcategory: "Lassi", isVeg: true, imgUrl:"/menu/ChocolateLassi.jpg" },
 
   // Soft Drinks - Lemonade
   { id: "87", name: "Lemon Juice", price: 5.00, category: "soft-drinks", subcategory: "Lemonade", isVeg: true, imgUrl:"/menu/LemonJuice.jpg" },
@@ -217,9 +217,9 @@ const menuItems=[
   { id: "89", name: "Ginger Juice", price: 6.00, category: "soft-drinks", subcategory: "Lemonade", isVeg: true, imgUrl:"/menu/GingerJuice.jpg" },
 
   // Alcohol Drinks - Cocktails
-  { id: "90", name: "Mojito", price: 10.00, category: "alcohol", subcategory: "Cocktails", isVeg: true, imgUrl:"/menu/Mojito.jpg" },
-  { id: "91", name: "Aperol Spritz", price: 10.00, category: "alcohol", subcategory: "Cocktails", isVeg: true, imgUrl:"/menu/AperolSpritz.jpg" },
-  { id: "92", name: "Blue Lagoon", price: 7.00, category: "alcohol", subcategory: "Cocktails", isVeg: true, imgUrl:"/menu/BlueLagoon.jpg" },
+  { id: "90", name: "Mojito", price: 8.50, category: "alcohol", subcategory: "Cocktails", isVeg: true, imgUrl:"/menu/Mojito.jpg" },
+  { id: "91", name: "Aperol Spritz", price: 8.50, category: "alcohol", subcategory: "Cocktails", isVeg: true, imgUrl:"/menu/AperolSpritz.jpg" },
+  { id: "92", name: "Blue Lagoon", price: 8.50, category: "alcohol", subcategory: "Cocktails", isVeg: true, imgUrl:"/menu/BlueLagoon.jpg" },
 
   // Alcohol Drinks - Beer Indian
   { id: "93", name: "Cobra Large 4.8% 650ml", price: 9.50, category: "alcohol", subcategory: "Beer Indian", isVeg: true, imgUrl:"/menu/CobraLarge.jpg" },
@@ -234,26 +234,26 @@ const menuItems=[
   { id: "100", name: "Leffe Blonde 6,6%", price: 5.00, category: "alcohol", subcategory: "Beer European", isVeg: true, imgUrl:"/menu/LeffeBlonde.jpg" },
   { id: "101", name: "Stella Artois 5,2%", price: 5.00, category: "alcohol", subcategory: "Beer European", isVeg: true, imgUrl:"/menu/StellaArtois.jpg" },
   { id: "102", name: "Hoegaarden 4,9%", price: 5.00, category: "alcohol", subcategory: "Beer European", isVeg: true, imgUrl:"/menu/Hoegaarden.jpg" },
-  { id: "103", name: "Leffe Blonde 0%", price: 4.50, category: "alcohol", subcategory: "Beer European", isVeg: true, imgUrl:"/menu/LeffeBlonde0.jpg" },
+  { id: "103", name: "Leffe Blonde 0%", price: 5.00, category: "alcohol", subcategory: "Beer European", isVeg: true, imgUrl:"/menu/LeffeBlonde0.jpg" },
 
   // Alcohol Drinks - Aperiitif
-  { id: "104", name: "Gin & Tonic", price: 10.00, category: "alcohol", subcategory: "Aperiitif", isVeg: true, imgUrl:"/menu/Gin&Tonic.jpg" },
+  { id: "104", name: "Gin & Tonic", price: 9.00, category: "alcohol", subcategory: "Aperiitif", isVeg: true, imgUrl:"/menu/Gin&Tonic.jpg" },
   { id: "105", name: "Martini Bianco(Pressecco & Soda)", price: 7.50, category: "alcohol", subcategory: "Aperiitif", isVeg: true, imgUrl:"/menu/MartiniBianco.jpg" },
-  { id: "106", name: "Martini Rosso(Tonic & Orange slice)", price: 7.50, category: "alcohol", subcategory: "Aperiitif", isVeg: true, imgUrl:"/menu/MartiniRosso.jpg" },
-  { id: "107", name: "Vodka Tonic", price: 10.00, category: "alcohol", subcategory: "Aperiitif", isVeg: true, imgUrl:"/menu/VodkaTonic.jpg" },
+  { id: "106", name: "Martini Rosso(Tonic & Orange slice)", price: 9.00, category: "alcohol", subcategory: "Aperiitif", isVeg: true, imgUrl:"/menu/MartiniRosso.jpg" },
+  { id: "107", name: "Vodka Tonic", price: 9.00, category: "alcohol", subcategory: "Aperiitif", isVeg: true, imgUrl:"/menu/VodkaTonic.jpg" },
   { id: "108", name: "Campari(Pressecco & Soda)", price: 7.50, category: "alcohol", subcategory: "Aperiitif", isVeg: true, imgUrl:"/menu/Campari.jpg" },
-  { id: "109", name: "Ricard", price: 7.50, category: "alcohol", subcategory: "Aperiitif", isVeg: true, imgUrl:"/menu/Ricard.jpg" },
-
+  { id: "109", name: "Ricard", price: 6.50, category: "alcohol", subcategory: "Aperiitif", isVeg: true, imgUrl:"/menu/Ricard.jpg" },
+  { id: "160", name: "Martini Dry (Gin & Olive)", price: 9.00, category: "alcohol", subcategory: "Aperitif", isVeg: true, imgUrl:"/menu/Aperitif.jpg" },
   // Alcohol Drinks - Whisk,Rum,& Vodka 4cl
-  { id: "110", name: "Johnny Walker Red", price: 8.00, category: "alcohol", subcategory: "Whisk,Rum,& Vodka 4cl", isVeg: true, imgUrl:"/menu/JohnnyWalkerRed.jpg" },
-  { id: "111", name: "Jack Daniel", price: 8.00, category: "alcohol", subcategory: "Whisk,Rum,& Vodka 4cl", isVeg: true, imgUrl:"/menu/JackDaniel.jpg" },
-  { id: "112", name: "Absolute Vodka", price: 8.00, category: "alcohol", subcategory: "Whisk,Rum,& Vodka 4cl", isVeg: true, imgUrl:"/menu/AbsoluteVodka.jpg" },
-  { id: "113", name: "Old Monk Rum", price: 8.00, category: "alcohol", subcategory: "Whisk,Rum,& Vodka 4cl", isVeg: true, imgUrl:"/menu/OldMonkRum.jpg" },
+  { id: "110", name: "Johnny Walker Red", price: 6.50, category: "alcohol", subcategory: "Whisk,Rum,& Vodka 4cl", isVeg: true, imgUrl:"/menu/JohnnyWalkerRed.jpg" },
+  { id: "111", name: "Jack Daniel", price: 6.50, category: "alcohol", subcategory: "Whisk,Rum,& Vodka 4cl", isVeg: true, imgUrl:"/menu/JackDaniel.jpg" },
+  { id: "112", name: "Absolute Vodka", price:  6.50, category: "alcohol", subcategory: "Whisk,Rum,& Vodka 4cl", isVeg: true, imgUrl:"/menu/AbsoluteVodka.jpg" },
+  { id: "113", name: "Old Monk Rum", price:  6.50, category: "alcohol", subcategory: "Whisk,Rum,& Vodka 4cl", isVeg: true, imgUrl:"/menu/OldMonkRum.jpg" },
   
   
   // Alcohol Drinks - Digestive
-  { id: "114", name: "Cognac", price: 8.00, category: "alcohol", subcategory: "Digestive", isVeg: true, imgUrl:"/menu/Cognac.jpg" },
-  { id: "115", name: "Grappa", price: 8.00, category: "alcohol", subcategory: "Digestive", isVeg: true, imgUrl:"/menu/grappaDigestive.jpg" },
+  { id: "114", name: "Cognac", price:  6.50, category: "alcohol", subcategory: "Digestive", isVeg: true, imgUrl:"/menu/Cognac.jpg" },
+  { id: "115", name: "Grappa", price:  6.50, category: "alcohol", subcategory: "Digestive", isVeg: true, imgUrl:"/menu/grappaDigestive.jpg" },
 
   // Wine - House Wine (Glass)
   { id: "116", name: "Red Wine- Glass", price: 7.00, category: "Wine", subcategory: "House Wine", isVeg: true, imgUrl:"/menu/HouseWineRed.jpg" },
@@ -261,34 +261,34 @@ const menuItems=[
   { id: "118", name: "Rose Wine- Glass", price: 7.50, category: "Wine", subcategory: "House Wine", isVeg: true, imgUrl:"/menu/HouseWineRose.jpg" },
 
   // Wine - House Wine (1/4 ltr)
-  { id: "119", name: "Red Wine- 1/4 ltr", price: 18.00, category: "Wine", subcategory: "House Wine", isVeg: true, imgUrl:"/menu/HouseWineRed.jpg" },
-  { id: "120", name: "White Wine- 1/4 ltr", price: 17.00, category: "Wine", subcategory: "House Wine", isVeg: true, imgUrl:"/menu/HouseWineWhite.jpg" },
-  { id: "121", name: "Rose Wine- 1/4 ltr", price: 18.00, category: "Wine", subcategory: "House Wine", isVeg: true, imgUrl:"/menu/HouseWineRose.jpg" },
+  { id: "119", name: "Red Wine- 1/4 ltr", price: 10.50, category: "Wine", subcategory: "House Wine", isVeg: true, imgUrl:"/menu/HouseWineRed.jpg" },
+  { id: "120", name: "White Wine- 1/4 ltr", price: 10.00, category: "Wine", subcategory: "House Wine", isVeg: true, imgUrl:"/menu/HouseWineWhite.jpg" },
+  { id: "121", name: "Rose Wine- 1/4 ltr", price: 9.50, category: "Wine", subcategory: "House Wine", isVeg: true, imgUrl:"/menu/HouseWineRose.jpg" },
 
   // Wine - House Wine (1/2 ltr)
-  { id: "122", name: "Red Wine- 1/2 ltr", price: 34.00, category: "Wine", subcategory: "House Wine", isVeg: true, imgUrl:"/menu/HouseWineRed.jpg" },
-  { id: "123", name: "White Wine- 1/2 ltr", price: 32.00, category: "Wine", subcategory: "House Wine", isVeg: true, imgUrl:"/menu/HouseWineWhite.jpg" },
-  { id: "124", name: "Rose Wine- 1/2 ltr", price: 34.00, category: "Wine", subcategory: "House Wine", isVeg: true, imgUrl:"/menu/HouseWineRose.jpg" },
+  { id: "122", name: "Red Wine- 1/2 ltr", price: 14.00, category: "Wine", subcategory: "House Wine", isVeg: true, imgUrl:"/menu/HouseWineRed.jpg" },
+  { id: "123", name: "White Wine- 1/2 ltr", price: 13.00, category: "Wine", subcategory: "House Wine", isVeg: true, imgUrl:"/menu/HouseWineWhite.jpg" },
+  { id: "124", name: "Rose Wine- 1/2 ltr", price: 13.50, category: "Wine", subcategory: "House Wine", isVeg: true, imgUrl:"/menu/HouseWineRose.jpg" },
   
   // Wine - House Wine (1 ltr)
-  { id: "125", name: "Red Wine- 1 ltr", price: 65.00, category: "Wine", subcategory: "House Wine", isVeg: true, imgUrl:"/menu/HouseWineRed.jpg" },
-  { id: "126", name: "White Wine- 1 ltr", price: 62.00, category: "Wine", subcategory: "House Wine", isVeg: true, imgUrl:"/menu/HouseWineWhite.jpg" },
-  { id: "127", name: "Rose Wine- 1 ltr", price: 65.00, category: "Wine", subcategory: "House Wine", isVeg: true, imgUrl:"/menu/HouseWineRose.jpg" },
+  { id: "125", name: "Red Wine- 1 ltr", price: 19.50, category: "Wine", subcategory: "House Wine", isVeg: true, imgUrl:"/menu/HouseWineRed.jpg" },
+  { id: "126", name: "White Wine- 1 ltr", price: 18.00, category: "Wine", subcategory: "House Wine", isVeg: true, imgUrl:"/menu/HouseWineWhite.jpg" },
+  { id: "127", name: "Rose Wine- 1 ltr", price: 17.50, category: "Wine", subcategory: "House Wine", isVeg: true, imgUrl:"/menu/HouseWineRose.jpg" },
 
   // Wine - Bottled Wine(White)
-  { id: "128", name: "La Crosiade-White", price: 25.00, category: "Wine", subcategory: "Bottled Wine", isVeg: true, imgUrl:"/menu/LaCrosiadeWhite.jpg" },
-  { id: "129", name: "Vinha Da Coutada Velha-White", price: 30.00, category: "Wine", subcategory: "Bottled Wine", isVeg: true, imgUrl:"/menu/VinhaDaCoutadaVelhaWhite.jpg" },
-  { id: "130", name: "Corbelli Grillo -White", price: 35.00, category: "Wine", subcategory: "Bottled Wine", isVeg: true, imgUrl:"/menu/CorbelliWhite.jpg" },
-  { id: "131", name: "Domaine Boyar- White", price: 40.00, category: "Wine", subcategory: "Bottled Wine", isVeg: true, imgUrl:"/menu/DomaineBoyarWhite.jpg" },
-  { id: "132", name: "Grover(Indan) -White", price: 45.00, category: "Wine", subcategory: "Bottled Wine", isVeg: true, imgUrl:"/menu/GroverWhite.jpg" },
+  { id: "128", name: "La Crosiade-White", price: 24.00, category: "Wine", subcategory: "Bottled Wine", isVeg: true, imgUrl:"/menu/LaCrosiadeWhite.jpg" },
+  { id: "129", name: "Vinha Da Coutada Velha-White", price: 22.50, category: "Wine", subcategory: "Bottled Wine", isVeg: true, imgUrl:"/menu/VinhaDaCoutadaVelhaWhite.jpg" },
+  { id: "130", name: "Corbelli Grillo -White", price: 19.50, category: "Wine", subcategory: "Bottled Wine", isVeg: true, imgUrl:"/menu/CorbelliWhite.jpg" },
+  { id: "131", name: "Domaine Boyar- White", price: 21.50, category: "Wine", subcategory: "Bottled Wine", isVeg: true, imgUrl:"/menu/DomaineBoyarWhite.jpg" },
+  { id: "132", name: "Grover(Indan) -White", price: 19.50, category: "Wine", subcategory: "Bottled Wine", isVeg: true, imgUrl:"/menu/GroverWhite.jpg" },
 
   // Wine - Bottled Wine(Red)
-  { id: "133", name: "Vinha Da Coutada Velha-Red", price: 30.00, category: "Wine", subcategory: "Bottled Wine", isVeg: true, imgUrl:"/menu/VinhaDaCoutadaVelhaRed.jpg" },
-  { id: "134", name: "Sula(Indian)-Red", price: 35.00, category: "Wine", subcategory: "Bottled Wine", isVeg: true, imgUrl:"/menu/SulaRed.jpg" },
-  { id: "135", name: "Merlot-Red", price: 40.00, category: "Wine", subcategory: "Bottled Wine", isVeg: true, imgUrl:"/menu/MerlotRed.jpg" },
+  { id: "133", name: "Vinha Da Coutada Velha-Red", price: 24.00, category: "Wine", subcategory: "Bottled Wine", isVeg: true, imgUrl:"/menu/VinhaDaCoutadaVelhaRed.jpg" },
+  { id: "134", name: "Sula(Indian)-Red", price: 22.50, category: "Wine", subcategory: "Bottled Wine", isVeg: true, imgUrl:"/menu/SulaRed.jpg" },
+  { id: "135", name: "Merlot-Red", price:22.50, category: "Wine", subcategory: "Bottled Wine", isVeg: true, imgUrl:"/menu/MerlotRed.jpg" },
 
   // Wine - Bottled Wine(Rose)
-  { id: "136", name: "Arco De La Vega 13%-Rose", price: 30.00, category: "Wine", subcategory: "Bottled Wine", isVeg: true, imgUrl:"/menu/ArcoDeLaVegaRose.jpg" },
+  { id: "136", name: "Arco De La Vega 13%-Rose", price: 22.50, category: "Wine", subcategory: "Bottled Wine", isVeg: true, imgUrl:"/menu/ArcoDeLaVegaRose.jpg" },
   
 
   // Wine - Bottled Wine(Sparkling)
@@ -304,10 +304,10 @@ const menuItems=[
 
 // Dip Tea
 { id: "142", name: "Green Tea", price: 4.00, category: "hot-drinks", subcategory: "Dip Tea", isVeg: true, imgUrl: "/menu/dip-tea.jpg" },
-{ id: "143", name: "Black Tea", price: 4.50, category: "hot-drinks", subcategory: "Dip Tea", isVeg: true, imgUrl: "/menu/dip-tea-milk.jpg" },
-{ id: "144", name: "Mint Tea", price: 4.50, category: "hot-drinks", subcategory: "Dip Tea", isVeg: true, imgUrl: "/menu/dip-tea-lemon.jpg" },
-{ id: "145", name: "Jasmine Tea", price: 4.50, category: "hot-drinks", subcategory: "Dip Tea", isVeg: true, imgUrl: "/menu/dip-tea-mint.jpg" },
-{ id: "146", name: "Chamomile Tea", price: 4.50, category: "hot-drinks", subcategory: "Dip Tea", isVeg: true, imgUrl: "/menu/dip-tea-chamomile.jpg" },
+{ id: "143", name: "Black Tea", price: 4.00, category: "hot-drinks", subcategory: "Dip Tea", isVeg: true, imgUrl: "/menu/dip-tea-milk.jpg" },
+{ id: "144", name: "Mint Tea", price: 4.00, category: "hot-drinks", subcategory: "Dip Tea", isVeg: true, imgUrl: "/menu/dip-tea-lemon.jpg" },
+{ id: "145", name: "Jasmine Tea", price: 4.00, category: "hot-drinks", subcategory: "Dip Tea", isVeg: true, imgUrl: "/menu/dip-tea-mint.jpg" },
+{ id: "146", name: "Chamomile Tea", price: 4.00, category: "hot-drinks", subcategory: "Dip Tea", isVeg: true, imgUrl: "/menu/dip-tea-chamomile.jpg" },
 
 // Coffee
 { id: "147", name: "Coffee", price: 4.00, category: "hot-drinks", subcategory: "Coffee", isVeg: true, imgUrl: "/menu/coffee.jpg" },
@@ -376,7 +376,7 @@ const Menu = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen py-16 bg-gray-50">
       {/* Header Section */}
       <div className="bg-red-900 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -37,8 +37,7 @@ const Contact: React.FC = () => {
               </div>
               <h3 className="text-xl font-bold text-red-900 mb-2">Phone</h3>
               <p className="text-gray-700">
-                (555) 123-CURRY<br />
-                (555) 123-2877
+              +32 470 65 24 89
               </p>
             </div>
             
@@ -49,7 +48,7 @@ const Contact: React.FC = () => {
               <h3 className="text-xl font-bold text-red-900 mb-2">Email</h3>
               <p className="text-gray-700">
                 info@7hillsindian.com<br />
-                reservations@7hillsindian.com
+              
               </p>
             </div>
             
@@ -58,11 +57,26 @@ const Contact: React.FC = () => {
                 <Clock className="text-black" size={24} />
               </div>
               <h3 className="text-xl font-bold text-red-900 mb-2">Hours</h3>
-              <p className="text-gray-700 text-sm">
-                Mon-Thu: 11AM-10PM<br />
-                Fri-Sat: 11AM-11PM<br />
-                Sun: 12PM-9PM
-              </p>
+               <div className="text-center">
+          
+            <div className="space-y-2">
+          
+              <div className="flex justify-between">
+                <span>Monday:</span>
+                <span>11:30 – 14:30 & 18:00 – 22:30</span>
+              </div>
+                 <div className="flex justify-between">
+                <span>Tuesday:</span>
+                <span>Closed</span>
+              </div>
+              
+              <div className="flex justify-between">
+                <span>Wednesday - Sunday:</span>
+                <span>11:30 – 14:30 & 18:00 – 22:30</span>
+              </div>
+          
+            </div>
+          </div>
             </div>
           </div>
         </div>
@@ -78,8 +92,7 @@ const Contact: React.FC = () => {
           
           <div className="bg-white rounded-lg p-4 shadow-lg">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.91477840725!2d-74.11976341943773!3d40.69767006430892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sus!4v1635959000000!5m2!1sen!2sus"
-              width="100%"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2517.264974067811!2d4.688909089033369!3d50.88180599865099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c160dc2ae1fbd3%3A0xbbcdb096e8b061c9!2sFonteinstraat%20123%2C%203000%20Leuven%2C%20Belgium!5e0!3m2!1sen!2sin!4v1755855345567!5m2!1sen!2sin"   width="100%"
               height="400"
               style={{ border: 0 }}
               allowFullScreen

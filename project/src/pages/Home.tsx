@@ -7,23 +7,23 @@ const Home: React.FC = () => {
     {
       name: "Butter Chicken",
       description: "Tender chicken in rich tomato and cream sauce",
-      price: "€18.99",
+      price: "€16.5",
       image: "/menu/ButterChicken.jpg",
-      category: "chicken"
+      category: "menu"
     },
     {
-      name: "Hyderabadi Biryani",
+      name: "Andra Biryani",
       description: "Fragrant basmati rice with tender lamb and aromatic spices",
-      price: "€24.99",
+      price: "€19.5",
       image: "/menu/ChickenBiryani.jpg",
-      category: "biryani"
+      category: "menu"
     },
     {
       name: "Masala Dosa",
       description: "Crispy crepe filled with spiced potato curry",
-      price: "€11.99",
+      price: "€12.5",
       image: "menu/MasalaDosa.jpg",
-      category: "idli-dosa"
+      category: "menu"
     }
   ];
 
@@ -32,9 +32,9 @@ const Home: React.FC = () => {
     { name: "Idli & Dosa", path: "/menu", image: "https://images.pexels.com/photos/5560754/pexels-photo-5560754.jpeg" },
     { name: "Chicken", path: "/menu", image: "https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg" },
     { name: "Lamb", path: "/menu", image: "https://images.pexels.com/photos/8629141/pexels-photo-8629141.jpeg" },
-    { name: "Fish & Prawn", path: "/menu", image: "https://images.pexels.com/photos/7625056/pexels-photo-7625056.jpeg" },
+    { name: "7 Hills Thali", path: "/menu", image: "https://images.pexels.com/photos/7625056/pexels-photo-7625056.jpeg" },
     { name: "Tandoori", path: "/menu", image: "https://images.pexels.com/photos/5410400/pexels-photo-5410400.jpeg" },
-    { name: "Naan & Rice", path: "/menu", image: "https://images.pexels.com/photos/4449068/pexels-photo-4449068.jpeg" },
+    { name: "Naan", path: "/menu", image: "https://images.pexels.com/photos/4449068/pexels-photo-4449068.jpeg" },
     { name: "Biryani", path: "/menu", image: "https://images.pexels.com/photos/1893557/pexels-photo-1893557.jpeg" }
   ];
 
@@ -138,7 +138,7 @@ const Home: React.FC = () => {
                     to={`/${dish.category}`}
                     className="inline-flex items-center text-yellow-600 hover:text-yellow-700 font-medium"
                   >
-                    View Category →
+                 Explore Our Full Menu 
                   </Link>
                 </div>
               </div>
@@ -197,7 +197,7 @@ const Home: React.FC = () => {
               Contact Us
             </Link>
             <Link
-              to="/starters"
+              to="/menu"
               className="inline-flex items-center px-8 py-4 border-2 border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-black font-semibold text-lg rounded-full transition-all duration-300 transform hover:scale-105"
             >
               View Full Menu
